@@ -1,7 +1,7 @@
 package edu.bu.met.cs665.ShopSystem;
 
-public interface ShopObserver {
+import edu.bu.met.cs665.DeliveryRequest;
 
-    public void update(String name, double price);
-    public void display();
+public interface ShopObserver {
+    void update(DeliveryRequest deliveryRequest);
 }

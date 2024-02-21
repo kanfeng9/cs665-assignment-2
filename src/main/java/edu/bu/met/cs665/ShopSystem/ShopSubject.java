@@ -1,11 +1,7 @@
 package edu.bu.met.cs665.ShopSystem;
 
 public interface ShopSubject {
-
-    public void registerObserver(ShopObserver o);
-
-    public boolean removeObserver(ShopObserver o);
-
-    public void notifyObservers();
-
+    void registerObserver(ShopObserver o);
+    boolean removeObserver(ShopObserver o);
+    void notifyObservers();
 }
