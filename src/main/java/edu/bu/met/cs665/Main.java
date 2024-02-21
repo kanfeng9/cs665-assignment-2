@@ -34,7 +34,7 @@ public class Main {
     ShopObserver taxi1 = new TaxiDriver("Ranjit", 1);
     ShopObserver taxi2 = new TaxiDriver("Amy", 2);
     ShopObserver van1 = new VanDriver("Bob", 3);
-    ShopObserver van2 = new VanDriver("Sanika", 6);
+    ShopObserver van2 = new VanDriver("Sanka", 6);
     ShopObserver taxi3 = new TaxiDriver("Ali", 4);
 
     shopCentralSystem.registerObserver(taxi1);
